@@ -1,0 +1,11 @@
+{
+	"craftable_recipes" : {
+		"storage" : {
+			"recipes" : {
+				"iron_chest" : {
+					"recipe" : "file(/recipes/chest_iron_recipe.json)"
+				}
+			}
+		}
+	}
+}

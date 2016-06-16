@@ -1,0 +1,13 @@
+{
+	"info" : {
+		"name" : "Lodewall Boxes",
+		"version" : 2
+	},
+	"default_locale" : "en",
+	"aliases" : {
+		"iron_chest" : "file(entities/containers/chest_iron/chest_iron.json)"
+	},
+	"mixintos" : {
+		"/stonehearth/jobs/blacksmith/recipes/recipes.json" : "file(mixins/blacksmith_recipes.json)"
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"type" : "recipe",
+
+	"work_units" : 5,
+	"recipe_name" : "i18n(lodewall-lights:recipes.iron_lantern_recipe.recipe_name)",
+	"description" : "i18n(lodewall-lights:recipes.iron_lantern_recipe.description)",
+	"flavor" : "i18n(lodewall-lights:recipes.iron_lantern_recipe.flavor)",
+	"portrait" : "/lodewall-boxes/entities/containers/chest_iron/chest_iron.png",
+	"workshop" : "stonehearth:blacksmith:workbench",
+	"level_requirement" : 2,
+	"ingredients" : [
+		{
+         "uri": "stonehearth:refined:iron_ingot",
+         "count": 1
+		}
+	],
+	"produces" : [{
+			"item" : "lodewall-boxes:iron_chest"
+		}
+	]
+}
