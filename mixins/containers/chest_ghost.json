@@ -8,7 +8,7 @@
          "animation_table": "file(/data/rigs/chest/chest.json)"
       },
       "effect_list": {
-         "default": "file(/data/rigs/chest/effects/closed.json)"
+         "default": "file(/data/rigs/chest/effects/opened.json)"
       },
       "stonehearth:portal": {
          "cutter": [
