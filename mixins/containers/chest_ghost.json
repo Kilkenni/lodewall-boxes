@@ -5,10 +5,10 @@
          "region_origin": { "x": 0.5, "y": 0, "z": 0.5 }
       },
       "render_info": {
-         "animation_table": "file(/data/rigs/door/door.json)"
+         "animation_table": "file(/data/rigs/chest/chest.json)"
       },
       "effect_list": {
-         "default": "file(/data/rigs/door/effects/closed.json)"
+         "default": "file(/data/rigs/chest/effects/opened.json)"
       },
       "stonehearth:fixture": {
          "valign": "bottom",
