@@ -1,9 +1,6 @@
 {
    "type": "mixin",
    "components": {
-      "stonehearth:entity_forms": {
-         "placeable_on_ground": true
-      },
       "sensor_list": {
          "sensors": {
             "chest_sensor": {

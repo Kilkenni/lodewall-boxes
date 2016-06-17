@@ -1,5 +1,8 @@
 {
-   "mixins": "stonehearth:mixins:placed_object",
+   "mixins": [
+      "stonehearth:mixins:placed_object",
+	  "lodewall-boxes:mixins:containers:chest:ghost"
+   ],
    "components": {
       "model_variants": {
          "default": {

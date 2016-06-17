@@ -1,6 +1,9 @@
 {
    "type": "entity",
-   "mixins": "file(chest_iron_ghost.json)",
+   "mixins": [
+      "file(chest_iron_ghost.json)",
+	  "lodewall-boxes:mixins:containers:chest"
+   ],
    "components": {
       "stonehearth:storage": {
          "type": "crate",
