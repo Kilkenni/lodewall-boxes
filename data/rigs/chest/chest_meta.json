@@ -2,6 +2,6 @@
 	 "meta": {
 		"helperBone": ["head", 0.300000, 0.300000, -0.000000, 0.000000],
 		"helperBone": ["root", 0.300000, 0.300000, -0.000000, 0.000000],
-		"hierarchy": ["chest_lid", "chest"],
+		"hierarchy": ["lid", "chest"],
 	}
 }
