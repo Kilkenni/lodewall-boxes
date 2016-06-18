@@ -1,0 +1,37 @@
+{
+   "type": "entity",
+   "mixins": [
+      "lodewall-boxes:mixins:containers:chest_test:ghost",
+      "stonehearth:mixins:placed_object"
+   ],
+   "components": {
+      "unit_info": {
+         "display_name": "i18n(stonehearth:entities.construction.wooden_door.wooden_door_ghost.display_name)",
+         "description": "i18n(stonehearth:entities.construction.wooden_door.wooden_door_ghost.description)",
+         "icon": "file(wooden_door.png)"
+      },
+      "stonehearth:material": {
+         "tags": "wood portal crafted door stockpile_portal"
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(wooden_door.qb)"
+            ]
+         }
+      },
+      "stonehearth:fixture": {
+         "valign": "bottom",
+         "cursor": "stonehearth:cursors:create_door",
+         "margin": {
+            "left": 1,
+            "right": 1,
+            "top": 1
+         },
+         "bounds": {
+            "min": { "x": -1, "y": 0 },
+            "max": { "x": 2, "y": 4 }
+         }
+      }
+   }
+}
