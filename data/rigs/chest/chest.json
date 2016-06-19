@@ -1,10 +1,10 @@
 {
 	 "skeleton": {
-		 "chest": [0.0,-0.9,0.0],
-		 "head": [0.0,0.0,2.0],
-		 "lid": [0.0,-0.9,1.0],
-		 "root": [0.0,0.0,0.0]
+		 "chest": [0.000000,9.000000,0.000000],
+		 "head": [0.000000,0.000000,0.000000],
+		 "lid": [0.000000,9.000000,10.000000],
+		 "root": [0.000000,0.000000,20.000000]
 	},
    "animation_root" : "file(animations)",
-   "effects_root" : "file(effects)" 
+   "effects_root" : "file(effects)"  
 }
