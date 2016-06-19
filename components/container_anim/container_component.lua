@@ -7,7 +7,7 @@ local DOOR_FILTERS = {}
 
 local get_door_filter = function(door_entity)
    local player_id = radiant.entities.get_player_id(door_entity)
-   local lockable = door_entity:get_component('stonehearth:door'):is_lockable()
+   local lockable = door_entity:get_component('lodewall-boxes:container'):is_lockable()
    local filter_id
    if lockable then
       filter_id = door_entity:get_id()
@@ -19,7 +19,7 @@ local get_door_filter = function(door_entity)
       local filter_fn = function(entity)
          local entity_player_id = radiant.entities.get_player_id(entity)
          local is_friendly = stonehearth.player:are_player_ids_friendly(player_id, entity_player_id)
-         local door_component = door_entity and door_entity:get_component('stonehearth:door')
+         local door_component = door_entity and door_entity:get_component('lodewall-boxes:container')
          local is_locked = door_component and door_component:is_locked()
          return is_friendly and not is_locked
       end
@@ -35,7 +35,7 @@ local get_door_filter = function(door_entity)
             end
          end)
       if lockable then
-         radiant.events.listen(door_entity, 'stonehearth:door:lock_changed', function(e)
+         radiant.events.listen(door_entity, 'lodewall-boxes:container:lock_changed', function(e)
             if frc and frc.cache then
                frc.cache:clear()
             end
@@ -99,7 +99,7 @@ function DoorComponent:toggle_lock()
    end
    self._sv.locked = not locked
    self.__saved_variables:mark_changed()
-   radiant.events.trigger(self._entity, 'stonehearth:door:lock_changed')
+   radiant.events.trigger(self._entity, 'lodewall-boxes:container:lock_changed')
 end
 
 function DoorComponent:is_locked()
@@ -119,7 +119,7 @@ function DoorComponent:_on_player_id_changed()
    mgs:set_filter_result_cache(filter_data.frc.cache)
 end
 
-function DoorComponent:_add_collision_shape()
+function DoorComponent:_add_collision_shape() --Possibly this is the first candidate to DELETE
    local portal = self._entity:get_component('stonehearth:portal')
    if portal then
       local mob = self._entity:add_component('mob')

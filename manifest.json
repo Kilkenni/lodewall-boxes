@@ -6,11 +6,9 @@
 	"default_locale" : "en",
 	"aliases" : {
 		"iron_chest" : "file(entities/containers/chest_iron/chest_iron.json)",
-		"chest_test" : "file(entities/containers/chest_test/chest_test.json)",
+		"container": "file(components/container_anim/container_component.lua)",
 		"mixins:containers:chest": "file(mixins/containers/chest.json)",
-        "mixins:containers:chest:ghost": "file(mixins/containers/chest_ghost.json)",
-		"mixins:containers:chest_test": "file(mixins/containers/chest_test.json)",
-        "mixins:containers:chest_test:ghost": "file(mixins/containers/chest_test_ghost.json)"
+        "mixins:containers:chest:ghost": "file(mixins/containers/chest_ghost.json)"
 	},
 	"mixintos" : {
 		"/stonehearth/jobs/blacksmith/recipes/recipes.json" : "file(mixins/blacksmith_recipes.json)"
