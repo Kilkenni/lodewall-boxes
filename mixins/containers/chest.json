@@ -9,7 +9,7 @@
             }
          }
       },
-      "stonehearth:door": {
+      "lodewall-boxes:chest": {
          "sensor": "chest_sensor"
       }
    },

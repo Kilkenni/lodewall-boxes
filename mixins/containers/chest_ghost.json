@@ -9,14 +9,6 @@
       },
       "effect_list": {
          "default": "file(/data/rigs/chest/effects/closed.json)"
-      },
-      "stonehearth:portal": {
-         "cutter": [
-            {
-               "min": { "x": -1, "y": 0 },
-               "max": { "x": 2, "y": 3 }
-            }
-         ]
       }
    }
 }

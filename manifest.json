@@ -6,9 +6,11 @@
 	"default_locale" : "en",
 	"aliases" : {
 		"iron_chest" : "file(entities/containers/chest_iron/chest_iron.json)",
-		"chest": "file(components/chest/chest_component.lua)",
 		"mixins:containers:chest": "file(mixins/containers/chest.json)",
         "mixins:containers:chest:ghost": "file(mixins/containers/chest_ghost.json)"
+	},
+	"components" : {
+	    "chest": "file(components/chest/chest_component.lua)"
 	},
 	"mixintos" : {
 		"/stonehearth/jobs/blacksmith/recipes/recipes.json" : "file(mixins/blacksmith_recipes.json)"
