@@ -7,12 +7,12 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(leather_bound_chest_iconic.qb)"
+               "file(chest_iron_iconic.qb)"
             ]
          }
       },
       "mob": {
-         "model_origin": { "x": 0, "y": 0, "z": 0 }
+         "model_origin": {  "x": -0.5, "y": 0, "z": 0.5  }
       }
    }
 }

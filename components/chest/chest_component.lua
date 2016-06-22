@@ -1,8 +1,5 @@
 local ChestComponent = class()
 
-local Point3 = _radiant.csg.Point3
-local Cube3 = _radiant.csg.Cube3
-
 function ChestComponent:initialize()
    local json = radiant.entities.get_json(self)
    self._sensor_name = json.sensor
