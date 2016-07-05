@@ -1,0 +1,18 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "components": {
+      "item": {
+         "category": "storage"
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(crate_reinforced_iconic.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": {  "x": -0.5, "y": 0, "z": 0.5  }
+      }
+   }
+}

@@ -2,9 +2,9 @@
 	"type" : "recipe",
 
 	"work_units" : 5,
-	"recipe_name" : "i18n(lodewall-boxes:recipes.iron_chest_recipe.recipe_name)",
-	"description" : "i18n(lodewall-boxes:recipes.iron_chest_recipe.description)",
-	"flavor" : "i18n(lodewall-boxes:recipes.iron_chest_recipe.flavor)",
+	"recipe_name" : "i18n(lodewall-boxes:recipes.chest_iron_recipe.recipe_name)",
+	"description" : "i18n(lodewall-boxes:recipes.chest_iron_recipe.description)",
+	"flavor" : "i18n(lodewall-boxes:recipes.chest_iron_recipe.flavor)",
 	"portrait" : "/lodewall-boxes/entities/containers/chest_iron/chest_iron.png",
 	"workshop" : "stonehearth:blacksmith:workbench",
 	"level_requirement" : 2,
@@ -15,7 +15,7 @@
 		}
 	],
 	"produces" : [{
-			"item" : "lodewall-boxes:iron_chest"
+			"item" : "lodewall-boxes:chest_iron"
 		}
 	]
 }

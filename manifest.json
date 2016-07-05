@@ -5,9 +5,12 @@
 	},
 	"default_locale" : "en",
 	"aliases" : {
-		"iron_chest" : "file(entities/containers/chest_iron/chest_iron.json)",
+		"chest_iron" : "file(entities/containers/chest_iron/chest_iron.json)",
+		"crate_reinforced" : "file(entities/containers/crate_reinforced/crate_reinforced.json)",
 		"mixins:containers:chest": "file(mixins/containers/chest.json)",
-        "mixins:containers:chest:ghost": "file(mixins/containers/chest_ghost.json)"
+        "mixins:containers:chest:ghost": "file(mixins/containers/chest_ghost.json)",
+		"mixins:containers:crate": "file(mixins/containers/crate.json)",
+        "mixins:containers:crate:ghost": "file(mixins/containers/crate_ghost.json)"
 	},
 	"components" : {
 	    "chest": "file(components/chest/chest_component.lua)"

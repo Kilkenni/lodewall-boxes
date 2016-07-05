@@ -15,8 +15,8 @@
          "scale": 0.1
       },
       "unit_info": {
-         "display_name": "i18n(lodewall-boxes:entities.containers.iron_chest.name)",
-         "description": "i18n(lodewall-boxes:entities.containers.iron_chest.description)",
+         "display_name": "i18n(lodewall-boxes:entities.containers.chest_iron.name)",
+         "description": "i18n(lodewall-boxes:entities.containers.chest_iron.description)",
          "icon": "file(chest_iron.png)"
       },
       "stonehearth:material": {
@@ -28,7 +28,7 @@
             "x",
             "z"
          ],
-         "allow_vertical_adjacent": true
+         "allow_vertical_adjacent": false
       }
    }
 }

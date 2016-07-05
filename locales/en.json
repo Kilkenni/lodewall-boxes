@@ -1,6 +1,6 @@
 {
 	"recipes" : {
-		"iron_chest_recipe" : {
+		"chest_iron_recipe" : {
 			"recipe_name" : "Iron Chest",
 			"description" : "Iron plates, forged rods and rivets.",
 			"flavor" : "A solid choice to store your favourite rabbit plush."
@@ -8,9 +8,13 @@
 	},
 	"entities" : {
 		"containers" : {
-			"iron_chest" : {
+			"chest_iron" : {
 				"description" : "A sturdy ogre-proof storage",
 				"name" : "Iron Chest"
+			},
+			"crate_reinforced" : {
+				"description" : "A small wooden crate binded with metal stripes",
+				"name" : "Reinforced crate"
 			}
 		}
 	}

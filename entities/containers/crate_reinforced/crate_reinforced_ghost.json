@@ -1,0 +1,30 @@
+{
+   "mixins": [
+      "stonehearth:mixins:placed_object",
+	  "lodewall-boxes:mixins:containers:crate:ghost"
+   ],
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(crate_reinforced.qb)"
+            ]
+         }
+      },
+      "render_info": {
+         "scale": 0.1
+      },
+      "unit_info": {
+         "display_name": "i18n(lodewall-boxes:entities.containers.crate_reinforced.name)",
+         "description": "i18n(lodewall-boxes:entities.containers.crate_reinforced.description)",
+         "icon": "file(crate_reinforced.png)"
+      },
+      "stonehearth:material": {
+         "tags": "furniture crafted crate"
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0 },
+         "allow_vertical_adjacent": false
+      }
+   }
+}

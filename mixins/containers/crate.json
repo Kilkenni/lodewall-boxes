@@ -1,0 +1,19 @@
+{
+   "type": "mixin",
+   "components": {
+      "sensor_list": {
+         "sensors": {
+            "crate_sensor": {
+               "type": "sensor",
+               "radius": 2
+            }
+         }
+      },
+      "lodewall-boxes:chest": {
+         "sensor": "crate_sensor"
+      }
+   },
+   "entity_data": {
+      "stonehearth:entity_radius": 0.5
+   }
+}
