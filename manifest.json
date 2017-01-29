@@ -1,7 +1,7 @@
 {
 	"info" : {
-		"name" : "Lodewall Boxes",
-		"version" : 2
+		"name" : "lodewall_boxes",
+		"version" : 3
 	},
 	"default_locale" : "en",
 	"aliases" : {

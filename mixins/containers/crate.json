@@ -9,7 +9,7 @@
             }
          }
       },
-      "lodewall-boxes:chest": {
+      "lodewall_boxes:chest": {
          "sensor": "crate_sensor"
       }
    },
